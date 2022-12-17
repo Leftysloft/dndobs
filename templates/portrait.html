@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>D&D Character HP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">  
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/main_script.js"></script>
+  </head>
+
+  <body>
+    <div class="character-infobox">
+      <img src={{ img_src }} class="character-portrait">
+      <div class="character-hp-bar">
+        <div class="hp-gauge">
+          <div class="hp-bar" id="hp-bar">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      setup({{cid}}, "{{base_url}}");
+    </script>
+  </body>
+</html>
