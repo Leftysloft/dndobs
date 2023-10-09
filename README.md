@@ -8,7 +8,7 @@ There are three steps for getting the character portraits to work:
 
 2. Run the server using the command `python3 main.py`. **Do not** close this window for the browser sources to work.
 
-3. For every character, add a new browser source to your OBS scene with the following URL: `http://127.0.0.1:5000/portraits?name=[your character's name]&id=[your character's id]`, replacing `[your character's name]` with the name of your character as used in step 1 and `[your character's id]` with the character ID from D&D Beyond*.
+3. For every character, add a new browser source to your OBS scene with the following URL: `http://127.0.0.1:5000/portrait?name=your character's name&id='your character's id`, replacing `your character's name` with the name of your character as used in step 1 and `your character's id` with the character ID from D&D Beyond*.
 
 
 \* You can find out a character ID by navigating to its character sheet in D&D Beyond and checking the last number in the URL. For example, from the following URL: https://www.dndbeyond.com/characters/12341234 you'd extract the ID `12341234`.
